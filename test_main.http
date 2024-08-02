@@ -1,0 +1,36 @@
+# Test your FastAPI endpoints
+
+POST http://127.0.0.1:8000/set-repos
+Accept: application/json
+
+{
+	"repositories": [
+		{
+			"name": "django",
+			"owner": "django"
+		},
+		{
+			"name": "tensorflow",
+			"owner": "tensorflow"
+		},
+		{
+			"name": "public-apis",
+			"owner": "public-apis"
+		},
+		{
+			"name": "freeCodeCamp",
+			"owner": "freeCodeCamp"
+		},
+		{
+			"name": "alx-low_level_programming",
+			"owner": "Solomonkassa"
+		}
+	]
+}
+
+###
+
+GET http://127.0.0.1:8000/event-stats
+Accept: application/json
+
+###

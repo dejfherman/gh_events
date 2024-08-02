@@ -1,0 +1,6 @@
+.venv
+.idea
+.idea/**
+__pycache__
+app*.log
+gh_events.db
